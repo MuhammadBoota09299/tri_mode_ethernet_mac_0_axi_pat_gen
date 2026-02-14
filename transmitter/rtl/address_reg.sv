@@ -1,6 +1,6 @@
 module tx_address_reg (
     input logic clk,rst_n,address_wr,
-    input address rx_address,
+    input address header_addr,
     output address tx_address
 );
     logic address address_next;
