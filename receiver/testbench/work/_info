@@ -1,0 +1,324 @@
+m255
+K4
+z2
+Z0 !s12c _opt
+Z1 !s99 nomlopt
+R0
+R1
+!s11f vlog 2024.1 2024.02, Feb  1 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 dC:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/testbench
+T_opt
+!s110 1771043822
+Vh30X=7MaeQ`^22GR2b@VG0
+04 11 4 work receiver_tb fast 0
+=2-e4a7a0f02a3a-698ffbed-79-34b4
+R1
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+OL;O;2024.1;79
+vBuffer
+2C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/rx_buffer.sv
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1771043804
+!i10b 1
+!s100 Ng3gf1E_GQUdmOjFk[GCG0
+IG^j?Z[E@LF@jj:8kHh_1o0
+S1
+R2
+w1771043790
+8C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/rx_buffer.sv
+FC:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/rx_buffer.sv
+!i122 3
+L0 1 64
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2024.1;79
+r1
+!s85 0
+31
+!s108 1771043804.000000
+!s107 C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/rx_buffer.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/rx_buffer.sv|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+n@buffer
+vcounter
+Z7 2C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/counter.sv|C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/header_reg.sv|C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/receiver.sv|C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/rx_buffer.sv|C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/rx_fsm.sv
+R4
+Z8 !s110 1771042787
+!i10b 1
+!s100 OC_dhY1PQ<S`SJXEfB^l`0
+I=^6V46E=54zPo:V:i=A8m2
+S1
+R2
+w1767141055
+8C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/counter.sv
+FC:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/counter.sv
+!i122 2
+L0 1 30
+R5
+R6
+r1
+!s85 0
+31
+Z9 !s108 1771042787.000000
+Z10 !s107 C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/rx_fsm.sv|C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/rx_buffer.sv|C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/receiver.sv|C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/header_reg.sv|C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/counter.sv|
+Z11 !s90 -work|work|-sv|-stats=none|C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/counter.sv|C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/header_reg.sv|C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/receiver.sv|C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/rx_buffer.sv|C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/rx_fsm.sv|
+!i113 0
+Z12 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+Xdefines
+2C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/defines/defines.sv
+R4
+R8
+!i10b 1
+!s100 hW?;ia]j6<AO:eHY1P`9R3
+I^VmU2beZY<;W;H8F5QV;l3
+S1
+R2
+w1767157506
+8C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/defines/defines.sv
+FC:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/defines/defines.sv
+!i122 0
+Z13 L0 1 0
+V^VmU2beZY<;W;H8F5QV;l3
+R6
+r1
+!s85 0
+31
+!s108 1771042786.000000
+!s107 C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/defines/defines.sv|
+!s90 -work|work|-sv|-stats=none|C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/defines/defines.sv|
+!i113 0
+R12
+R3
+vheader_reg
+R7
+R4
+Z14 DXx4 work 7 defines 0 22 ^VmU2beZY<;W;H8F5QV;l3
+DXx4 work 18 header_reg_sv_unit 0 22 6Of[n@D2DPAVzYY<0ci;S3
+R8
+R5
+r1
+!s85 0
+!i10b 1
+!s100 W`dRz4BFg32Ma5LQ<jIDM0
+I:HNBKC2fg67JE[R3SHGU30
+!s105 header_reg_sv_unit
+S1
+R2
+Z15 w1767158263
+Z16 8C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/header_reg.sv
+Z17 FC:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/header_reg.sv
+!i122 2
+L0 2 25
+R6
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+Xheader_reg_sv_unit
+R7
+R4
+R14
+R8
+V6Of[n@D2DPAVzYY<0ci;S3
+r1
+!s85 0
+!i10b 1
+!s100 Fo:0N7^9XeDU<[iWIL0171
+I6Of[n@D2DPAVzYY<0ci;S3
+!i103 1
+S1
+R2
+R15
+R16
+R17
+!i122 2
+R13
+R6
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+vreceiver
+R7
+R4
+R14
+DXx4 work 16 receiver_sv_unit 0 22 [>mfa3P=aJi_i0G`Ami9h1
+R8
+R5
+r1
+!s85 0
+!i10b 1
+!s100 P=R2RJKT4KB6dT]=]o8KV1
+IF_QM?j=DEG<XC85m8jc6_1
+!s105 receiver_sv_unit
+S1
+R2
+Z18 w1771041809
+Z19 8C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/receiver.sv
+Z20 FC:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/receiver.sv
+!i122 2
+L0 2 37
+R6
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+Xreceiver_sv_unit
+R7
+R4
+R14
+R8
+V[>mfa3P=aJi_i0G`Ami9h1
+r1
+!s85 0
+!i10b 1
+!s100 <oZi:zKgd0FD?HTGH3`^g0
+I[>mfa3P=aJi_i0G`Ami9h1
+!i103 1
+S1
+R2
+R18
+R19
+R20
+!i122 2
+R13
+R6
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+vreceiver_tb
+Z21 2receiver_tb.sv
+R4
+R14
+DXx4 work 19 receiver_tb_sv_unit 0 22 HQdGaUYEMdlIabIPCX4eV1
+R8
+R5
+r1
+!s85 0
+!i10b 1
+!s100 UPkKGH7WF>`@9H>X3c:Hb1
+IKK<GEg2FVJWH4d7_=JSnL2
+!s105 receiver_tb_sv_unit
+S1
+R2
+Z22 w1771042561
+Z23 8receiver_tb.sv
+Z24 Freceiver_tb.sv
+!i122 1
+L0 3 102
+R6
+31
+R9
+Z25 !s107 receiver_tb.sv|
+Z26 !s90 -work|work|-sv|-stats=none|receiver_tb.sv|
+!i113 0
+R12
+R3
+Xreceiver_tb_sv_unit
+R21
+R4
+R14
+R8
+VHQdGaUYEMdlIabIPCX4eV1
+r1
+!s85 0
+!i10b 1
+!s100 UhfLPEKVW_T]iVE<4XedV0
+IHQdGaUYEMdlIabIPCX4eV1
+!i103 1
+S1
+R2
+R22
+R23
+R24
+!i122 1
+R13
+R6
+31
+R9
+R25
+R26
+!i113 0
+R12
+R3
+vrx_controller
+R7
+R4
+R14
+DXx4 work 14 rx_fsm_sv_unit 0 22 K@>`FYV@G9omhbcCEjd0K0
+R8
+R5
+r1
+!s85 0
+!i10b 1
+!s100 4`K<?>T@EziOEN;>XT0?c2
+I:mo`Yg>02ED3f`>[66Xd50
+!s105 rx_fsm_sv_unit
+S1
+R2
+Z27 w1771041549
+Z28 8C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/rx_fsm.sv
+Z29 FC:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/rx_fsm.sv
+!i122 2
+L0 2 80
+R6
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3
+Xrx_fsm_sv_unit
+R7
+R4
+R14
+R8
+VK@>`FYV@G9omhbcCEjd0K0
+r1
+!s85 0
+!i10b 1
+!s100 I<?m7:j2KWz_K>O7;JAfB1
+IK@>`FYV@G9omhbcCEjd0K0
+!i103 1
+S1
+R2
+R27
+R28
+R29
+!i122 2
+R13
+R6
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3

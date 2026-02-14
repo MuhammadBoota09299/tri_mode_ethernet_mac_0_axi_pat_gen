@@ -1,0 +1,124 @@
+# Reading pref.tcl
+# //  Questa Sim-64
+# //  Version 2024.1 win64 Feb  1 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vsim -gui -voptargs="+acc" work.receiver_tb -do "add wave -r sim:/receiver_tb/*;run -all; quit" 
+# Start time: 09:19:57 on Feb 14,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
+# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
+# ** Note: (vopt-143) Recognized 1 FSM in module "rx_controller(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.defines(fast)
+# Loading work.receiver_tb_sv_unit(fast)
+# Loading work.receiver_tb(fast)
+# Loading work.receiver_sv_unit(fast)
+# Loading work.receiver(fast)
+# Loading work.header_reg_sv_unit(fast)
+# Loading work.header_reg(fast)
+# Loading work.counter(fast)
+# Loading work.Buffer(fast)
+# Loading work.rx_fsm_sv_unit(fast)
+# Loading work.rx_controller(fast)
+# add wave -r sim:/receiver_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: boota  Hostname: DESKTOP-63J34CG  ProcessID: 8684
+#           Attempting to use alternate WLF file "./wlftsdn0s6".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftsdn0s6
+# run -all
+# 
+# === Test 1: Basic Packet ===
+# ** Note: $finish    : receiver_tb.sv(102)
+#    Time: 100 us  Iteration: 0  Instance: /receiver_tb
+# 1
+# Break in Module receiver_tb at receiver_tb.sv line 102
+#  quit
+run -all
+vlog -reportprogress 300 -work work C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/rx_buffer.sv
+# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+# Start time: 09:34:01 on Feb 14,2026
+# vlog -reportprogress 300 -work work C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/rx_buffer.sv 
+# -- Compiling module Buffer
+# ** Error: (vlog-13069) C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/rx_buffer.sv(60): near "[": syntax error, unexpected '['.
+# End time: 09:34:01 on Feb 14,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/rx_buffer.sv
+# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+# Start time: 09:34:01 on Feb 14,2026
+# vlog -reportprogress 300 -work work C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/rx_buffer.sv 
+# -- Compiling module Buffer
+# ** Error: (vlog-13069) C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/rx_buffer.sv(60): near "[": syntax error, unexpected '['.
+# End time: 09:34:01 on Feb 14,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/rx_buffer.sv
+# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+# Start time: 09:36:44 on Feb 14,2026
+# vlog -reportprogress 300 -work work C:/Users/boota/OneDrive/Desktop/pakect_gen/receiver/rtl/rx_buffer.sv 
+# -- Compiling module Buffer
+# 
+# Top level modules:
+# 	Buffer
+# End time: 09:36:44 on Feb 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
+# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.defines(fast)
+# Loading work.receiver_tb_sv_unit(fast)
+# Loading work.receiver_tb(fast)
+# Loading work.receiver_sv_unit(fast)
+# Loading work.receiver(fast)
+# Loading work.header_reg_sv_unit(fast)
+# Loading work.header_reg(fast)
+# Loading work.counter(fast)
+# Loading work.Buffer(fast)
+# Loading work.rx_fsm_sv_unit(fast)
+# Loading work.rx_controller(fast)
+run -all
+# 
+# === Test 1: Basic Packet ===
+# [595] TX Data: 0xxx
+# [605] TX Data: 0xa0
+# [615] TX Data: 0xa1
+# [625] TX Data: 0xa2
+# [635] TX Data: 0xa3
+# [645] TX Data: 0xa4
+# [655] TX Data: 0xa5
+# [665] TX Data: 0xa6
+# [675] TX Data: 0xa7
+# [685] TX Data: 0xa8
+# 
+# === Test 2: Second Packet ===
+# [1165] TX Data: 0xa9
+# [1175] TX Data: 0xb0
+# [1185] TX Data: 0xb1
+# [1195] TX Data: 0xb2
+# [1205] TX Data: 0xb3
+# 
+# === Test 3: Minimum Packet ===
+# [1605] TX Data: 0xb4
+# 
+# === Test Complete ===
+# ** Note: $finish    : receiver_tb.sv(92)
+#    Time: 1705 ns  Iteration: 1  Instance: /receiver_tb
+# 1
+# Break in Module receiver_tb at receiver_tb.sv line 92
