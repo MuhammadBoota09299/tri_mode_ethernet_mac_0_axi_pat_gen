@@ -11,7 +11,7 @@ module rx_controller (
     output logic brx_valid,
     output logic rx_axis_tready
 );
-rx_fsm current_state, next_state;
+fsm current_state, next_state;
 
 always_ff @(posedge clk) begin
     if (!rst_n) begin

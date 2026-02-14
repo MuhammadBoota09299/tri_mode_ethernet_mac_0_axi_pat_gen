@@ -1,61 +1,64 @@
-module buffer #(parameter SIZE = 64)(
+module Buffer #(parameter SIZE = 2048)(
     input  logic        clk,
     input  logic        rst_n,
-    input  logic        rx_valid,
-    input  logic        btx_ready,
+    input  logic        tx_valid,
+    input  logic        btx_rd_en,
     input  logic [7:0]  tx_data,
-    output logic        tx_ready,
-    output logic        btx_valid,
+    output logic        btx_full,
+    output logic        btx_empty,
     output logic [7:0]  btx_data
 );
 
     // Buffer size is num_msg_bytes, pointers are 13 bits
-    logic [$clog2(SIZE)-1:0] wptr, rptr, wptr_n, rptr_n, w_count;
+    logic [$clog2(SIZE)-1:0] wptr, rptr, wptr_n,wptr_next, rptr_n, w_count;
     logic [7:0] buffer [0:SIZE-1]; // 11 bits addressable (max 2048 bytes)
-    logic empty,full;
     
-    assign wptr_n = wptr+1;
-    assign empty    = (wptr == rptr);
-    assign w_count  = (wptr + 1);
-    assign full = (w_count == rptr);
-    assign rptr_n = rptr+1;
+    // Write in Buffer
+    always_ff @(posedge clk) begin
+        if (tx_valid & !btx_full) begin
+            buffer[wptr] <= tx_data;  
+        end
+    end
+    
+    //Read from Buffer
+    always_ff @(posedge clk) begin
+        if (btx_rd_en & !btx_empty) begin
+            btx_data <= buffer[rptr];
+        end
+    end
 
-
-
-
-
+    // write and read pointer registers
     always_ff @(posedge clk) begin
         if (!rst_n) begin
             wptr <= 0;
-            buffer[wptr] <= 8'b0;
+            rptr <= 0;
         end else begin
-            if (rx_valid && !full) begin
-                buffer[wptr] <= tx_data;
-                wptr         <= wptr_n;
-            end
+            wptr <= wptr_n;
+            rptr <= rptr_n;
         end
     end
 
-    always_ff @(posedge clk) begin
-        if (!rst_n) begin
-            rptr <= 1'b0;
-            btx_data <= 1'b0;
+    // write pointer next value logic
+    always_comb begin
+        if (tx_valid & !btx_full) begin
+            wptr_n = wptr_next;
         end else begin
-            if (btx_ready && !empty) begin
-                btx_data  <= buffer[rptr];
-                rptr     <= rptr_n;
-        end
-            
+            wptr_n = wptr;
         end
     end
 
-    always_ff @( posedge clk ) begin 
-        if (!rst_n) begin
-            btx_valid <= 1'b0;
-            tx_ready <= 1'b0;
+    // read pointer next value logic
+    always_comb begin
+        if (btx_rd_en & !btx_empty) begin
+            rptr_n = rptr + 1;
         end else begin
-            btx_valid <= !empty;
-            tx_ready <= !full;
+            rptr_n = rptr;
         end
     end
+
+// Buffer full and empty logic
+    assign wptr_next = wptr + 1;
+    assign btx_full = (wptr_next == rptr) ? 1 : 0; // Buffer is full when next write pointer equals read pointer
+    assign btx_empty = (wptr == rptr) ? 1 : 0; // Buffer is empty when write pointer equals read pointer
+
 endmodule

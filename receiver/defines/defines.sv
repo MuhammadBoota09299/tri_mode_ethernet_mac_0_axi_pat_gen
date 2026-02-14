@@ -8,6 +8,6 @@ typedef enum logic [1:0] {
     IDLE          = 2'b00,
     HEADER_BYTES  = 2'b01,
     DATA_BYTES    = 2'b11
-} rx_fsm;
+} fsm;
 endpackage
 
