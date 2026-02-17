@@ -3,7 +3,7 @@ module counter (
     input logic [1:0][7:0] payload_len,
     output logic tx_axis_tlast,data
 );
-    logic [1:0][7:0] count,count_next;
+    logic [1:0][7:0] count,count_next,count_q;
 
     always_comb begin 
         if (count_en) begin
@@ -20,7 +20,7 @@ module counter (
         end
     end
     always_ff @( posedge clk ) begin
-        if (rst_n) begin
+        if (!rst_n) begin
             count <=16'b0;
         end else begin
             count <= count_next;

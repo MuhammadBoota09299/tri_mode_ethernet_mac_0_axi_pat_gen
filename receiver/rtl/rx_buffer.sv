@@ -10,7 +10,7 @@ module Buffer #(parameter SIZE = 2048)(
 );
 
     // Buffer size is num_msg_bytes, pointers are 13 bits
-    logic [$clog2(SIZE)-1:0] wptr, rptr, wptr_n,wptr_next, rptr_n, w_count;
+    logic [$clog2(SIZE)-1:0] wptr, rptr, wptr_n,wptr_next, rptr_n;
     logic [7:0] buffer [0:SIZE-1]; // 11 bits addressable (max 2048 bytes)
     
     // Write in Buffer

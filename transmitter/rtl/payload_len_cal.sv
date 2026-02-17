@@ -5,7 +5,7 @@ module payload_len_cal (
     output logic [1:0][7:0]payload_len
 );
     logic [1:0][7:0] remain_next,remain,payload,remain_cal;
-    logic remain_sel.payload_sel;
+    logic remain_sel,payload_sel;
     // muxes
     assign remain_next=(payload_en) ? number_of_bytes:remain_cal;
     assign remain_cal=(payload_cal) ? (remain - payload_len) : remain;

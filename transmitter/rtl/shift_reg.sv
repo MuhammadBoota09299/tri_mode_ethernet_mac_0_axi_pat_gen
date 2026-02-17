@@ -1,9 +1,11 @@
+import defines::*;
 module shift_reg (
     input header tx_header,
     input logic clk,rst_n,shift_en,shift_wr,
     output logic [7:0] header_bits
 );
-header header_next,header_reg;
+
+header tx_header_next,header_reg;
     always_comb begin 
         if (shift_en) begin
             tx_header_next={header_reg[103:0],header_reg[111:104]};
@@ -22,4 +24,6 @@ header header_next,header_reg;
             end
         end
     end
+    
+assign header_bits=header_reg[111:104];
 endmodule

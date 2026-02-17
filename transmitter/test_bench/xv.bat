@@ -5,5 +5,5 @@ vlog -work work   -sv -stats=none C:/Users/boota/OneDrive/Desktop/packect_gen/de
 if %ERRORLEVEL% GEQ 1 pause /B 1
 vlog -work work   -sv -stats=none *.sv
 if %ERRORLEVEL% GEQ 1 pause /B 1
-vlog -work work   -sv -stats=none C:/Users/boota/OneDrive/Desktop/packect_gen/receiver/rtl/*.sv 
+vlog -work work   -sv -stats=none C:/Users/boota/OneDrive/Desktop/packect_gen/transmitter/rtl/*.sv 
 if %ERRORLEVEL% GEQ 1 pause /B 1 
