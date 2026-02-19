@@ -1,0 +1,98 @@
+# Reading pref.tcl
+# //  Questa Sim-64
+# //  Version 2024.1 win64 Feb  1 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vsim -gui -voptargs="+acc" work.tri_mode_ethernet_mac_0_axi_pat_gen_tb -do "add wave -r sim:/tri_mode_ethernet_mac_0_axi_pat_gen_tb/*;run -all; quit" 
+# Start time: 09:43:26 on Feb 19,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
+# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
+# ** Note: (vopt-143) Recognized 1 FSM in module "controller(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "rx_controller(fast)".
+# ** Warning: C:/Users/boota/OneDrive/Desktop/packect_gen/rtl/transmitter/rtl/transmitter.sv(4): (vopt-13314) Defaulting port 'header_addr' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: C:/Users/boota/OneDrive/Desktop/packect_gen/rtl/transmitter/rtl/transmitter.sv(5): (vopt-13314) Defaulting port 'number_of_bytes' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: C:/Users/boota/OneDrive/Desktop/packect_gen/rtl/transmitter/rtl/tx_counter.sv(3): (vopt-13314) Defaulting port 'payload_len' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: C:/Users/boota/OneDrive/Desktop/packect_gen/rtl/transmitter/rtl/payload_len_cal.sv(3): (vopt-13314) Defaulting port 'number_of_bytes' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: C:/Users/boota/OneDrive/Desktop/packect_gen/rtl/transmitter/rtl/shift_reg.sv(3): (vopt-13314) Defaulting port 'tx_header' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: C:/Users/boota/OneDrive/Desktop/packect_gen/rtl/dut.sv(6): (vopt-13314) Defaulting port 'payload_len' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: C:/Users/boota/OneDrive/Desktop/packect_gen/rtl/transmitter/rtl/address_reg.sv(4): (vopt-13314) Defaulting port 'header_addr' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=8.
+# Loading sv_std.std
+# Loading work.defines(fast)
+# Loading work.tri_mode_ethernet_mac_0_axi_pat_gen_tb_sv_unit(fast)
+# Loading work.tri_mode_ethernet_mac_0_axi_pat_gen_tb(fast)
+# Loading work.tri_mode_ethernet_mac_0_axi_pat_gen_sv_unit(fast)
+# Loading work.tri_mode_ethernet_mac_0_axi_pat_gen(fast)
+# Loading work.receiver_sv_unit(fast)
+# Loading work.receiver(fast)
+# Loading work.header_reg_sv_unit(fast)
+# Loading work.header_reg(fast)
+# Loading work.rx_counter(fast)
+# Loading work.rx_buffer(fast)
+# Loading work.rx_controller_sv_unit(fast)
+# Loading work.rx_controller(fast)
+# Loading work.transmitter_sv_unit(fast)
+# Loading work.transmitter(fast)
+# Loading work.address_reg_sv_unit(fast)
+# Loading work.tx_address_reg(fast)
+# Loading work.payload_len_cal(fast)
+# Loading work.controller_sv_unit(fast)
+# Loading work.controller(fast)
+# Loading work.tx_buffer(fast)
+# Loading work.tx_counter(fast)
+# Loading work.shift_reg_sv_unit(fast)
+# Loading work.shift_reg(fast)
+# Loading work.dut(fast)
+# add wave -r sim:/tri_mode_ethernet_mac_0_axi_pat_gen_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: boota  Hostname: DESKTOP-63J34CG  ProcessID: 13676
+#           Attempting to use alternate WLF file "./wlft7jsay3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft7jsay3
+# run -all
+# Received byte 0: 85 and expected header byte: 7f
+# Received byte 1: 46 and expected header byte: 23
+# Received byte 2: c8 and expected header byte: f2
+# Received byte 3: de and expected header byte: 9b
+# Received byte 4: fd and expected header byte: 3c
+# Received byte 5: f5 and expected header byte: 40
+# Received byte 6: 7f and expected header byte: 85
+# Received byte 7: 23 and expected header byte: 46
+# Received byte 8: f2 and expected header byte: c8
+# Received byte 9: 9b and expected header byte: de
+# Received byte 10: 3c and expected header byte: fd
+# Received byte 11: 40 and expected header byte: f5
+# Received byte 12: 00 and expected header byte: 00
+# Received byte 13: 10 and expected header byte: 10
+# Received byte 14: 9b and expected payload byte: 9b
+# Received byte 15: db and expected payload byte: db
+# Received byte 16: 8d and expected payload byte: 8d
+# Received byte 17: 77 and expected payload byte: 77
+# Received byte 18: 38 and expected payload byte: 38
+# Received byte 19: 7c and expected payload byte: 7c
+# Received byte 20: 03 and expected payload byte: 03
+# Received byte 21: 91 and expected payload byte: 91
+# Received byte 22: a4 and expected payload byte: a4
+# Received byte 23: 14 and expected payload byte: 14
+# Received byte 24: 67 and expected payload byte: 67
+# Received byte 25: e1 and expected payload byte: e1
+# Received byte 26: 39 and expected payload byte: 39
+# Received byte 27: 41 and expected payload byte: 41
+# Received byte 28: aa and expected payload byte: aa
+# Received byte 29: 53 and expected payload byte: 53
+# ** Note: $stop    : tri_mode_ethernet_mac_0_axi_pat_gen_tb.sv(120)
+#    Time: 515 ns  Iteration: 1  Instance: /tri_mode_ethernet_mac_0_axi_pat_gen_tb
+# Break in Module tri_mode_ethernet_mac_0_axi_pat_gen_tb at tri_mode_ethernet_mac_0_axi_pat_gen_tb.sv line 120
+#  quit

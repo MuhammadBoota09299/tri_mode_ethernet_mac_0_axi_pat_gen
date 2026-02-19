@@ -132,7 +132,7 @@
             <mxPoint x="-4" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-KItOXCOuVEAFo69stbW-26" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;rx_axis_tvalid&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="-KItOXCOuVEAFo69stbW-26" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;r_valid&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="30" y="490" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-KItOXCOuVEAFo69stbW-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.007;entryY=0.599;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
@@ -153,7 +153,7 @@
             <mxPoint x="180" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-KItOXCOuVEAFo69stbW-32" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;rx_axis_tlast&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-KItOXCOuVEAFo69stbW-30" vertex="1" connectable="0">
+        <mxCell id="-KItOXCOuVEAFo69stbW-32" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;r_last&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-KItOXCOuVEAFo69stbW-30" vertex="1" connectable="0">
           <mxGeometry x="-0.0873" y="2" relative="1" as="geometry">
             <mxPoint x="-1" y="-18" as="offset" />
           </mxGeometry>
@@ -164,7 +164,7 @@
             <mxPoint x="180" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-KItOXCOuVEAFo69stbW-38" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;tx_axis_tready&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-KItOXCOuVEAFo69stbW-31" vertex="1" connectable="0">
+        <mxCell id="-KItOXCOuVEAFo69stbW-38" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;tready&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-KItOXCOuVEAFo69stbW-31" vertex="1" connectable="0">
           <mxGeometry x="-0.3247" y="5" relative="1" as="geometry">
             <mxPoint y="-6" as="offset" />
           </mxGeometry>
@@ -172,7 +172,7 @@
         <mxCell id="-KItOXCOuVEAFo69stbW-34" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;rx_axis_tuser&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="45" y="570" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-KItOXCOuVEAFo69stbW-37" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;rx_axis_tready&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="-KItOXCOuVEAFo69stbW-37" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;r_ready&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="480" y="290" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-KItOXCOuVEAFo69stbW-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
@@ -204,7 +204,7 @@
             <mxPoint x="480.00000000000045" y="439.44" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-KItOXCOuVEAFo69stbW-44" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space-collapse: preserve; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tx_axis_tdata&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="-KItOXCOuVEAFo69stbW-44" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space-collapse: preserve; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tdata&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="490" y="332" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-KItOXCOuVEAFo69stbW-45" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
@@ -218,10 +218,10 @@
             <mxPoint x="-10" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-KItOXCOuVEAFo69stbW-47" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;tx_axis_tvalid&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="-KItOXCOuVEAFo69stbW-47" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;tvalid&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="480" y="370" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-KItOXCOuVEAFo69stbW-48" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;tx_axis_tlast&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="-KItOXCOuVEAFo69stbW-48" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;tlast&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="500" y="415" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-KItOXCOuVEAFo69stbW-50" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;activity_flash&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -923,7 +923,7 @@
             <mxPoint x="-4" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VYCXgSg48pgbqo2PQdiy-26" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;rx_axis_tvalid&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="VYCXgSg48pgbqo2PQdiy-26" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;r_valid&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="410" y="750" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VYCXgSg48pgbqo2PQdiy-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.007;entryY=0.599;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
@@ -938,7 +938,7 @@
             <mxPoint x="560" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VYCXgSg48pgbqo2PQdiy-30" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;rx_axis_tlast&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VYCXgSg48pgbqo2PQdiy-29" vertex="1" connectable="0">
+        <mxCell id="VYCXgSg48pgbqo2PQdiy-30" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;r_last&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VYCXgSg48pgbqo2PQdiy-29" vertex="1" connectable="0">
           <mxGeometry x="-0.0873" y="2" relative="1" as="geometry">
             <mxPoint x="-1" y="-18" as="offset" />
           </mxGeometry>
@@ -949,7 +949,7 @@
             <mxPoint x="560" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VYCXgSg48pgbqo2PQdiy-32" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;tx_axis_tready&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VYCXgSg48pgbqo2PQdiy-31" vertex="1" connectable="0">
+        <mxCell id="VYCXgSg48pgbqo2PQdiy-32" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;tready&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VYCXgSg48pgbqo2PQdiy-31" vertex="1" connectable="0">
           <mxGeometry x="-0.3247" y="5" relative="1" as="geometry">
             <mxPoint y="-6" as="offset" />
           </mxGeometry>
@@ -957,7 +957,7 @@
         <mxCell id="VYCXgSg48pgbqo2PQdiy-33" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;rx_axis_tuser&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="425" y="830" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VYCXgSg48pgbqo2PQdiy-34" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;rx_axis_tready&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="VYCXgSg48pgbqo2PQdiy-34" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;r_ready&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="860" y="550" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VYCXgSg48pgbqo2PQdiy-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
@@ -989,7 +989,7 @@
             <mxPoint x="860.0000000000005" y="699.44" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VYCXgSg48pgbqo2PQdiy-40" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space-collapse: preserve; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tx_axis_tdata&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="VYCXgSg48pgbqo2PQdiy-40" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space-collapse: preserve; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tdata&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="870" y="592" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VYCXgSg48pgbqo2PQdiy-41" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
@@ -1003,10 +1003,10 @@
             <mxPoint x="-10" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VYCXgSg48pgbqo2PQdiy-43" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;tx_axis_tvalid&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="VYCXgSg48pgbqo2PQdiy-43" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;tvalid&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="860" y="630" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VYCXgSg48pgbqo2PQdiy-44" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;tx_axis_tlast&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="VYCXgSg48pgbqo2PQdiy-44" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;tlast&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="880" y="675" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VYCXgSg48pgbqo2PQdiy-45" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;activity_flash&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -1149,7 +1149,7 @@
             <mxPoint x="209.04" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lMWLsQwThIhpzeisq9AQ-4" connectable="0" parent="lMWLsQwThIhpzeisq9AQ-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;rx_axis_tvalid&lt;/span&gt;" vertex="1">
+        <mxCell id="lMWLsQwThIhpzeisq9AQ-4" connectable="0" parent="lMWLsQwThIhpzeisq9AQ-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;r_valid&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="0.1176" y="3" as="geometry">
             <mxPoint x="-15" y="-17" as="offset" />
           </mxGeometry>
@@ -1160,7 +1160,7 @@
             <mxPoint x="209.04" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lMWLsQwThIhpzeisq9AQ-6" connectable="0" parent="lMWLsQwThIhpzeisq9AQ-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;rx_axis_tlast&lt;/span&gt;" vertex="1">
+        <mxCell id="lMWLsQwThIhpzeisq9AQ-6" connectable="0" parent="lMWLsQwThIhpzeisq9AQ-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;r_last&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="0.1176" y="3" as="geometry">
             <mxPoint x="-15" y="-17" as="offset" />
           </mxGeometry>
@@ -1171,7 +1171,7 @@
             <mxPoint x="39.04" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PE3Q2kNbgIhvjbnhRhnB-2" connectable="0" parent="PE3Q2kNbgIhvjbnhRhnB-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;rx_axis_tready&lt;/span&gt;" vertex="1">
+        <mxCell id="PE3Q2kNbgIhvjbnhRhnB-2" connectable="0" parent="PE3Q2kNbgIhvjbnhRhnB-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;r_ready&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="0.2512" y="-1" as="geometry">
             <mxPoint x="16" y="-19" as="offset" />
           </mxGeometry>
@@ -1193,7 +1193,7 @@
             <mxPoint x="940" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J8UrLJ5mPonNb-IHfSsC-3" connectable="0" parent="J8UrLJ5mPonNb-IHfSsC-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;tx_axis_tdata&lt;/span&gt;" vertex="1">
+        <mxCell id="J8UrLJ5mPonNb-IHfSsC-3" connectable="0" parent="J8UrLJ5mPonNb-IHfSsC-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;tdata&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="0.1176" y="3" as="geometry">
             <mxPoint x="-15" y="-17" as="offset" />
           </mxGeometry>
@@ -1204,7 +1204,7 @@
             <mxPoint x="940" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J8UrLJ5mPonNb-IHfSsC-5" connectable="0" parent="J8UrLJ5mPonNb-IHfSsC-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;tx_axis_tvalid&lt;/span&gt;" vertex="1">
+        <mxCell id="J8UrLJ5mPonNb-IHfSsC-5" connectable="0" parent="J8UrLJ5mPonNb-IHfSsC-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;tvalid&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="0.1176" y="3" as="geometry">
             <mxPoint x="-15" y="-17" as="offset" />
           </mxGeometry>
@@ -1215,7 +1215,7 @@
             <mxPoint x="940" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J8UrLJ5mPonNb-IHfSsC-7" connectable="0" parent="J8UrLJ5mPonNb-IHfSsC-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;tx_axis_tlast&lt;/span&gt;" vertex="1">
+        <mxCell id="J8UrLJ5mPonNb-IHfSsC-7" connectable="0" parent="J8UrLJ5mPonNb-IHfSsC-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;tlast&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="0.1176" y="3" as="geometry">
             <mxPoint x="-15" y="-17" as="offset" />
           </mxGeometry>
@@ -1226,7 +1226,7 @@
             <mxPoint x="770" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J8UrLJ5mPonNb-IHfSsC-9" connectable="0" parent="J8UrLJ5mPonNb-IHfSsC-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;tx_axis_tready&lt;/span&gt;" vertex="1">
+        <mxCell id="J8UrLJ5mPonNb-IHfSsC-9" connectable="0" parent="J8UrLJ5mPonNb-IHfSsC-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;tready&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="0.2512" y="-1" as="geometry">
             <mxPoint x="16" y="-19" as="offset" />
           </mxGeometry>
@@ -1440,7 +1440,7 @@
             <mxPoint x="260" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Aou9Pnd4XOn522s9SiQp-2" connectable="0" parent="Aou9Pnd4XOn522s9SiQp-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;rx_axis_tvalid&lt;/span&gt;" vertex="1">
+        <mxCell id="Aou9Pnd4XOn522s9SiQp-2" connectable="0" parent="Aou9Pnd4XOn522s9SiQp-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;r_valid&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.2833" y="-1" as="geometry">
             <mxPoint x="24" y="-21" as="offset" />
           </mxGeometry>
@@ -1451,7 +1451,7 @@
             <mxPoint x="260" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Aou9Pnd4XOn522s9SiQp-4" connectable="0" parent="Aou9Pnd4XOn522s9SiQp-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;rx_axis_tlast&lt;/span&gt;" vertex="1">
+        <mxCell id="Aou9Pnd4XOn522s9SiQp-4" connectable="0" parent="Aou9Pnd4XOn522s9SiQp-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;r_last&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.2833" y="-1" as="geometry">
             <mxPoint x="24" y="-21" as="offset" />
           </mxGeometry>
@@ -1525,7 +1525,7 @@
             <mxPoint x="1250" y="688" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UK_L6B56-0dL_oiSdvxm-2" connectable="0" parent="UK_L6B56-0dL_oiSdvxm-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;rx_axis_tready&lt;/span&gt;" vertex="1">
+        <mxCell id="UK_L6B56-0dL_oiSdvxm-2" connectable="0" parent="UK_L6B56-0dL_oiSdvxm-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;r_ready&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="0.2512" y="-1" as="geometry">
             <mxPoint x="16" y="-19" as="offset" />
           </mxGeometry>
@@ -1541,10 +1541,10 @@
         <mxCell id="mh-ChsjfeRLNLtDE2lns-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="IDLE&lt;br&gt;-------------&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="120" x="370" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="P1sCOzU5KvrHSmyRcRbq-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="HEADER&lt;br&gt;__________&lt;div&gt;count_en=rx_axis_tvalid&lt;br&gt;header_en=&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;rx_axis_tvalid&lt;/span&gt;&lt;/div&gt;&lt;div&gt;rx_axis_tready&lt;/div&gt;" vertex="1">
+        <mxCell id="P1sCOzU5KvrHSmyRcRbq-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="HEADER&lt;br&gt;__________&lt;div&gt;count_en=r_valid&lt;br&gt;header_en=&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;r_valid&lt;/span&gt;&lt;/div&gt;&lt;div&gt;r_ready&lt;/div&gt;" vertex="1">
           <mxGeometry height="150" width="170" x="640" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="P1sCOzU5KvrHSmyRcRbq-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="DATA&lt;br&gt;______&lt;br&gt;rx_axis_tready = ! brx_full&lt;br&gt;tx_valid=rx_axis_tvalid" vertex="1">
+        <mxCell id="P1sCOzU5KvrHSmyRcRbq-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="DATA&lt;br&gt;______&lt;br&gt;r_ready = ! brx_full&lt;br&gt;tx_valid=r_valid" vertex="1">
           <mxGeometry height="120" width="150" x="110" y="540" as="geometry" />
         </mxCell>
         <mxCell id="nXHHNK7Chbz7KggXc81m-1" edge="1" parent="1" source="mh-ChsjfeRLNLtDE2lns-1" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.425;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" target="P1sCOzU5KvrHSmyRcRbq-1" value="">
@@ -1556,7 +1556,7 @@
             <mxPoint x="450" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nXHHNK7Chbz7KggXc81m-2" connectable="0" parent="nXHHNK7Chbz7KggXc81m-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;rx_axis_tvalid&lt;/font&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="nXHHNK7Chbz7KggXc81m-2" connectable="0" parent="nXHHNK7Chbz7KggXc81m-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;r_valid&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1162" y="-21" as="geometry">
             <mxPoint x="36" y="-19" as="offset" />
           </mxGeometry>
@@ -1570,7 +1570,7 @@
             <mxPoint x="540" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r6z0hM7t0EtNj1Shbb7e-2" connectable="0" parent="r6z0hM7t0EtNj1Shbb7e-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;count==4&#39;d13 &amp;amp; &lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;rx_axis_tvalid&lt;/span&gt;&lt;/font&gt;" vertex="1">
+        <mxCell id="r6z0hM7t0EtNj1Shbb7e-2" connectable="0" parent="r6z0hM7t0EtNj1Shbb7e-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;count==4&#39;d13 &amp;amp; &lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;r_valid&lt;/span&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0802" y="-31" as="geometry">
             <mxPoint x="54" y="26" as="offset" />
           </mxGeometry>
@@ -1584,7 +1584,7 @@
             <mxPoint x="430" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WOM7-tC-gbduqxJVJ_1r-1" connectable="0" parent="MJ_ge1MvsyRSUm_M19la-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;rx_axis_tlast&lt;/font&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="WOM7-tC-gbduqxJVJ_1r-1" connectable="0" parent="MJ_ge1MvsyRSUm_M19la-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;r_last&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="0.1245" y="-29" as="geometry">
             <mxPoint x="-34" y="-19" as="offset" />
           </mxGeometry>
@@ -1811,7 +1811,7 @@
             <mxPoint x="1041.6666666666667" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qxux7vAPpPtpjdOjIPPC-1" connectable="0" parent="PRZowHehsPEMcGMYnREL-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;tx_axis_tdata&lt;/span&gt;" vertex="1">
+        <mxCell id="qxux7vAPpPtpjdOjIPPC-1" connectable="0" parent="PRZowHehsPEMcGMYnREL-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;tdata&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="0.4898" as="geometry">
             <mxPoint y="-10" as="offset" />
           </mxGeometry>
@@ -1883,7 +1883,7 @@
             <mxPoint x="230" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uWHK6-oNL2xQ6OEKe6Na-2" connectable="0" parent="uWHK6-oNL2xQ6OEKe6Na-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space-collapse: preserve;&quot;&gt;tx_axis_tready&lt;/div&gt;" vertex="1">
+        <mxCell id="uWHK6-oNL2xQ6OEKe6Na-2" connectable="0" parent="uWHK6-oNL2xQ6OEKe6Na-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; white-space-collapse: preserve;&quot;&gt;tready&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.3247" y="5" as="geometry">
             <mxPoint y="-6" as="offset" />
           </mxGeometry>
@@ -1908,7 +1908,7 @@
             <mxPoint x="1041.3793103448277" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sBl55oDCFcgcF-1cP7eL-2" connectable="0" parent="1nGvbY8v9qg_osXeYiqZ-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;tx_axis_tlast&lt;/span&gt;" vertex="1">
+        <mxCell id="sBl55oDCFcgcF-1cP7eL-2" connectable="0" parent="1nGvbY8v9qg_osXeYiqZ-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;tlast&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="0.6085" y="-1" as="geometry">
             <mxPoint y="-11" as="offset" />
           </mxGeometry>
@@ -1919,7 +1919,7 @@
             <mxPoint x="1040" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PKHeM7Q3Dso3dep5GOj7-1" connectable="0" parent="sBl55oDCFcgcF-1cP7eL-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;tx_axis_tvalid&lt;/span&gt;" vertex="1">
+        <mxCell id="PKHeM7Q3Dso3dep5GOj7-1" connectable="0" parent="sBl55oDCFcgcF-1cP7eL-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space-collapse: preserve;&quot;&gt;tvalid&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="0.2635" y="1" as="geometry">
             <mxPoint x="-10" y="-9" as="offset" />
           </mxGeometry>
@@ -2401,7 +2401,7 @@
             <mxPoint x="470" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fzJhBHakvOl0E6wsT5mr-1" connectable="0" parent="2PCwrVXt1SiexaizJjnf-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;tx_axis_tready &amp;amp; !btx_empty&lt;br&gt;--------------------------&lt;br&gt;shift_wr=1&#39;b1&lt;br&gt;btx_rd_en=1&#39;b0&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;payload_cal=1&#39;b0&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;tx_axis_tvalid=1&#39;b0&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="fzJhBHakvOl0E6wsT5mr-1" connectable="0" parent="2PCwrVXt1SiexaizJjnf-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;tready &amp;amp; !btx_empty&lt;br&gt;--------------------------&lt;br&gt;shift_wr=1&#39;b1&lt;br&gt;btx_rd_en=1&#39;b0&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;payload_cal=1&#39;b0&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;tvalid=1&#39;b0&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.2109" y="-31" as="geometry">
             <mxPoint x="82" y="-31" as="offset" />
           </mxGeometry>
@@ -2415,7 +2415,7 @@
             <mxPoint x="470" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DSVltGu4QcMc5QttbAJ8-1" connectable="0" parent="2PCwrVXt1SiexaizJjnf-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;tx_axis_tready &amp;amp; &lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;data&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;-----------&lt;br&gt;count_en=1&#39;b1&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;shift_en=1&#39;b1&lt;br&gt;data_select=1&#39;b0&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;btx_rd_en&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;=1&#39;b0&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;payload_cal=1&#39;b0&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;tx_axis_tvalid=1&#39;b1&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="DSVltGu4QcMc5QttbAJ8-1" connectable="0" parent="2PCwrVXt1SiexaizJjnf-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;tready &amp;amp; &lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;data&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;-----------&lt;br&gt;count_en=1&#39;b1&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;shift_en=1&#39;b1&lt;br&gt;data_select=1&#39;b0&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;btx_rd_en&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;=1&#39;b0&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;payload_cal=1&#39;b0&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;tvalid=1&#39;b1&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.1587" y="-59" as="geometry">
             <mxPoint x="-11" y="61" as="offset" />
           </mxGeometry>
@@ -2429,7 +2429,7 @@
             <mxPoint x="470" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dxjL7i3jGLKDeWUDac_s-1" connectable="0" parent="2PCwrVXt1SiexaizJjnf-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;font face=&quot;Consolas, Courier New, monospace&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;tx_axix_last &amp;amp; remain_zero &lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;white-space-collapse: preserve; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;&amp;amp; &lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;tx_axis_tready &amp;amp; !empty&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt; &lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;-------------------------------&lt;br&gt;count_en=1&#39;b1,&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space-collapse: preserve; font-size: 12px; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;data_select=1&#39;b1&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;btx_rd_en&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;=1&#39;b0,shift_wr=1&#39;b0,&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;tx_axis_tvalid= 1&#39;b1&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;shift_en=1&#39;b0,payload_cal=1&#39;b0&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;playload_en=1&#39;b1,address_wr=1&#39;b1&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="dxjL7i3jGLKDeWUDac_s-1" connectable="0" parent="2PCwrVXt1SiexaizJjnf-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;font face=&quot;Consolas, Courier New, monospace&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;tx_axix_last &amp;amp; remain_zero &lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;white-space-collapse: preserve; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;&amp;amp; &lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;tready &amp;amp; !empty&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt; &lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;-------------------------------&lt;br&gt;count_en=1&#39;b1,&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space-collapse: preserve; font-size: 12px; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;data_select=1&#39;b1&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;btx_rd_en&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;=1&#39;b0,shift_wr=1&#39;b0,&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;tvalid= 1&#39;b1&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;shift_en=1&#39;b0,payload_cal=1&#39;b0&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;playload_en=1&#39;b1,address_wr=1&#39;b1&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.2231" y="-40" as="geometry">
             <mxPoint x="-101" y="-40" as="offset" />
           </mxGeometry>
@@ -2443,7 +2443,7 @@
             <mxPoint x="470" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7pdt_N9bDCu8v29btkd9-1" connectable="0" parent="2PCwrVXt1SiexaizJjnf-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;tx_axix_last &amp;amp; !remain_zero &amp;amp; !empty&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt; &amp;amp; &lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;tx_axis_tready&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt; &lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;-------------------------------&lt;br&gt;count_en=&lt;span style=&quot;&quot;&gt;1&#39;b1,&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;data_select=1&#39;b1&lt;/span&gt;&lt;div&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;btx_ready=1&#39;b0,shift_wr=1&#39;b1&lt;br&gt;shift_en=1&#39;b0,payload_cal=1&#39;b1&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;tx_axis_tvalid=1&#39;b1&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="7pdt_N9bDCu8v29btkd9-1" connectable="0" parent="2PCwrVXt1SiexaizJjnf-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;tx_axix_last &amp;amp; !remain_zero &amp;amp; !empty&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt; &amp;amp; &lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;tready&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt; &lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;-------------------------------&lt;br&gt;count_en=&lt;span style=&quot;&quot;&gt;1&#39;b1,&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;data_select=1&#39;b1&lt;/span&gt;&lt;div&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;btx_ready=1&#39;b0,shift_wr=1&#39;b1&lt;br&gt;shift_en=1&#39;b0,payload_cal=1&#39;b1&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;tvalid=1&#39;b1&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.1298" y="-35" as="geometry">
             <mxPoint y="-50" as="offset" />
           </mxGeometry>
@@ -2457,7 +2457,7 @@
             <mxPoint x="470" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kf8mEj3DakHKszAy_o6w-2" connectable="0" parent="kf8mEj3DakHKszAy_o6w-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;tx_axis_tready &amp;amp; !&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;data&lt;br&gt;-----------&lt;br&gt;count_en=1&#39;b1&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;shift_en=1&#39;b1&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;tx_axis_tvalid=1&#39;b1&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;data_select=1&#39;b0&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;btx_rd_en&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;=1&#39;b0&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;payload_cal=1&#39;b0&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="kf8mEj3DakHKszAy_o6w-2" connectable="0" parent="kf8mEj3DakHKszAy_o6w-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;tready &amp;amp; !&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;data&lt;br&gt;-----------&lt;br&gt;count_en=1&#39;b1&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;shift_en=1&#39;b1&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;tvalid=1&#39;b1&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;data_select=1&#39;b0&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;btx_rd_en&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;=1&#39;b0&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;payload_cal=1&#39;b0&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.0529" y="-2" as="geometry">
             <mxPoint x="102" as="offset" />
           </mxGeometry>
@@ -2473,7 +2473,7 @@
             <mxPoint x="187" y="424.99999999999994" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DSVltGu4QcMc5QttbAJ8-3" connectable="0" parent="DSVltGu4QcMc5QttbAJ8-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;!tx_axix_last&lt;br&gt;-----------------&lt;br&gt;count_en= !btx_empty&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;tx_axis_tvalid= !empty&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;data_select=1&#39;b1&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;btx_rd_en&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;=tx_axis_tready&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;payload_cal=1&#39;b0&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="DSVltGu4QcMc5QttbAJ8-3" connectable="0" parent="DSVltGu4QcMc5QttbAJ8-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;!tx_axix_last&lt;br&gt;-----------------&lt;br&gt;count_en= !btx_empty&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;tvalid= !empty&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;data_select=1&#39;b1&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;btx_rd_en&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;=tready&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve;&quot;&gt;payload_cal=1&#39;b0&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0596" y="-8" as="geometry">
             <mxPoint x="-79" y="13" as="offset" />
           </mxGeometry>
@@ -2488,7 +2488,7 @@
             <mxPoint x="530" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5EPM7MFxjYqpcJPpc3W_-2" connectable="0" parent="5EPM7MFxjYqpcJPpc3W_-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;span&gt;&lt;span style=&quot;white-space-collapse: preserve; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;!(&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;tx_axis_tready)&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt; &amp;amp; btx_empty&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;-------------------------------&lt;br&gt;count_en=1&#39;b0,&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space-collapse: preserve; font-size: 12px; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;data_select=1&#39;b0&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;btx_rd_en&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;=1&#39;b0,shift_wr=1&#39;b0,&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;tx_axis_tvalid=1&#39;b0,&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;shift_en=1&#39;b0,payload_cal=1&#39;b0&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;playload_en=&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;1&#39;b1&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;,address_wr=&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 12px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;rx_header_valid&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="5EPM7MFxjYqpcJPpc3W_-2" connectable="0" parent="5EPM7MFxjYqpcJPpc3W_-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;span&gt;&lt;span style=&quot;white-space-collapse: preserve; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;!(&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;tready)&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt; &amp;amp; btx_empty&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;-------------------------------&lt;br&gt;count_en=1&#39;b0,&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space-collapse: preserve; font-size: 12px; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;data_select=1&#39;b0&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;btx_rd_en&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;=1&#39;b0,shift_wr=1&#39;b0,&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;tvalid=1&#39;b0,&lt;/span&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;shift_en=1&#39;b0,payload_cal=1&#39;b0&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;playload_en=&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;1&#39;b1&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;,address_wr=&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 12px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;rx_header_valid&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.007" y="-1" as="geometry">
             <mxPoint y="-61" as="offset" />
           </mxGeometry>
