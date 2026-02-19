@@ -147,6 +147,33 @@ typedef enum logic [1:0] {
 5. **Header Insertion**: Extracted header is prepended to payload
 6. **Transmission**: Complete frame is transmitted via transmit interface
 
+## Vivado Integration
+
+### Module Instantiation
+
+When instantiating this module in a Vivado design, use the following port mappings:
+
+```systemverilog
+    .clk                       (axi_tclk),
+    .rst_n                     (axi_tresetn),
+
+    .r_data                    (rx_axis_tdata),
+    .r_valid                   (rx_axis_tvalid),
+    .r_last                    (rx_axis_tlast),
+    .r_ready                   (rx_axis_tready),
+            
+    .tdata                     (pat_gen_tdata),
+    .tvalid                    (pat_gen_tvalid),
+    .tlast                     (pat_gen_tlast),
+    .tready                    (pat_gen_tready)
+```
+
+**Signal Mapping:**
+- `axi_tclk`: AXI clock signal
+- `axi_tresetn`: AXI active-low reset
+- `rx_axis_*`: AXI Slave (receive) interface signals
+- `pat_gen_*`: AXI Master (transmit) interface signals
+
 ## Author
 
 Muhammad Boota
